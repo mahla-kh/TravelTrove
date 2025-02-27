@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import Product from "./pages/Product";
 import Pricing from "./pages/Pricing";
-import HomePage from "./pages/HomePage";
+import Homepage from "./pages/Homepage";
 import PageNotFount from "./pages/PageNotFount";
 import Login from "./pages/Login";
 import AppLayout from "./pages/AppLayout";
@@ -34,7 +34,7 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route index element={<HomePage />} />
+          <Route index element={<Homepage />} />
           <Route path="Product" element={<Product />} />
           <Route path="Pricing" element={<Pricing />} />
           <Route path="Login" element={<Login />} />
