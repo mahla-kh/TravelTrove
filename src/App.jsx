@@ -11,6 +11,7 @@ import CityList from "./components/CityList";
 import CountryList from "./components/CountryList";
 import City from "./components/City";
 import Form from "./components/Form";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 function App() {
   return (
