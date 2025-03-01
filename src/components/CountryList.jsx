@@ -2,7 +2,9 @@ import React from "react";
 import styles from "./CountryList.module.css";
 import CountryItem from "./CountryItem";
 import Spinner from "./Spinner";
-function CountryList({ cities, isLoading }) {
+import { useProvider } from "../contexts/CitiesContext";
+function CountryList() {
+  const { cities, isLoading } = useProvider();
   if (!cities.length) return <p>add your first city by clicking on the map</p>;
   const countries = cities.reduce((array, city) => {
     if (!array.includes(city.country)) {

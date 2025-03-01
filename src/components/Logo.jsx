@@ -5,7 +5,11 @@ import React from "react";
 function Logo() {
   return (
     <Link to="/">
-      <img src="/logo.png" alt="WorldWise logo" className={styles.logo} />
+      <img
+        src="/created-logo2.png"
+        alt="TravelTrove logo"
+        className={styles.logo}
+      />
     </Link>
   );
 }
