@@ -32,9 +32,39 @@ function CitiesProvider({ children }) {
     fetchData();
   }
 
+  function createCity(newCity) {
+    async function fetchData() {
+      const res = await fetch(`http://localhost:3000/cities/`, {
+        method: "POST",
+        body: JSON.stringify(newCity),
+        headers: { "Content-Type": "application/json" },
+      });
+      const data = await res.json();
+      setCities((cities) => [...cities, data]);
+    }
+    fetchData();
+  }
+
+  function deleteCity(id) {
+    async function fetchData() {
+      await fetch(`http://localhost:3000/cities/${id}`, {
+        method: "DELETE",
+      });
+      setCities((cities) => cities.filter((city) => city.id != id));
+    }
+    fetchData();
+  }
+
   return (
     <CitiesContext.Provider
-      value={{ cities, isLoading, currentCity, useCurrentCity }}
+      value={{
+        cities,
+        isLoading,
+        currentCity,
+        useCurrentCity,
+        createCity,
+        deleteCity,
+      }}
     >
       {children}
     </CitiesContext.Provider>

@@ -23,7 +23,6 @@ function City() {
   useEffect(
     function () {
       useCurrentCity(id);
-      console.log(id);
     },
     [id]
   );

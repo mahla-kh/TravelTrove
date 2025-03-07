@@ -11,9 +11,12 @@ const formatDate = (date) =>
     weekday: "long",
   }).format(new Date(date));
 function CityItem({ city }) {
-  const { currentCity } = useProvider;
-  console.log(currentCity);
+  const { currentCity, deleteCity } = useProvider();
   const { cityName, date, id, position } = city;
+  function deleteHandler(e) {
+    e.preventDefault();
+    deleteCity(id);
+  }
   return (
     <li>
       <Link
@@ -24,7 +27,9 @@ function CityItem({ city }) {
       >
         <h3 className={styles.name}>{cityName}</h3>
         <time className={styles.date}>{formatDate(date)}</time>
-        <button className={styles.deleteBtn}>&times;</button>
+        <button className={styles.deleteBtn} onClick={deleteHandler}>
+          &times;
+        </button>
       </Link>
     </li>
   );
