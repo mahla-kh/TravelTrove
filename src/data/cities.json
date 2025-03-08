@@ -10,6 +10,28 @@
         "lat": "40.050219582906315",
         "lng": "-0.10625839233398439"
       }
+    },
+    {
+      "id": "6173",
+      "cityName": "Bahabad",
+      "date": "2025-03-07T07:11:12.855Z",
+      "notes": "",
+      "country": "Iran (Islamic Republic of)",
+      "position": {
+        "lat": "35.53222622770339",
+        "lng": "51.50390625000001"
+      }
+    },
+    {
+      "id": "8efc",
+      "cityName": "Yazd",
+      "date": "2025-03-07T07:12:48.217Z",
+      "notes": "",
+      "country": "Iran (Islamic Republic of)",
+      "position": {
+        "lat": "31.84956532831343",
+        "lng": "54.36035156250001"
+      }
     }
   ]
 }
