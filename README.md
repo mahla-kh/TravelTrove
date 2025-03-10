@@ -10,9 +10,7 @@ Capture your adventures and bring your journeys to life with an interactive map.
 
 - 🗺️ Track and mark places you've visited on an interactive map
 - ✍️ Add personal notes and memories to each location
-- 📸 Upload photos to capture your experiences
 - 🌐 Responsive design for all devices
-- 🚧 **In Development** — Exciting new features coming soon!
 
 ## 🛠️ Built With
 
@@ -26,6 +24,3 @@ Capture your adventures and bring your journeys to life with an interactive map.
 
 ![Bite Alchemy Home Page](public/home-page.png)
 ![Ingredient Selection](public/app-page.png)
-
-📬 Contact
-Feel free to reach out via GitHub
