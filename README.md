@@ -1,8 +1,31 @@
-# React + Vite
+# 🌍 Travel Trove
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Capture your adventures and bring your journeys to life with an interactive map. Every place you visit becomes a part of your story.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Travel Trove Live](https://world-wise-ecru.vercel.app/)
+
+## 🌟 Features
+
+- 🗺️ Track and mark places you've visited on an interactive map
+- ✍️ Add personal notes and memories to each location
+- 📸 Upload photos to capture your experiences
+- 🌐 Responsive design for all devices
+- 🚧 **In Development** — Exciting new features coming soon!
+
+## 🛠️ Built With
+
+- **React** — for dynamic UI
+- **JavaScript** — for logic and interactivity
+- **CSS** — for styling
+- **Mapbox API** — for interactive maps
+- **Cloudinary** — for storing and serving images
+
+📸 Screenshots
+
+![Bite Alchemy Home Page](public/home-page.png)
+![Ingredient Selection](public/app-page.png)
+
+📬 Contact
+Feel free to reach out via GitHub
